@@ -17,7 +17,7 @@ public class Data {
             new Product(303L, "Mixer Grinder", "Home Appliances", 79.0)
     );
 
-    List<Order> orders = List.of(
+    public static List<Order> orders = List.of(
             new Order(
                     1001L, 501L,
                     LocalDateTime.of(2024, 1, 10, 14, 30),
